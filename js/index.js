@@ -63,10 +63,7 @@ var curPageIndex = 0;
   showLoading(); // 加载中
   // 1. 获取远程数据
   var resp = await fetch(
-    `https://bless.yuanjin.tech/api/bless?id=${location.search.replace(
-      "?",
-      ""
-    )}`
+    `https://bless.yuanjin.tech/api/bless?id=5fe70be490eb6c3c4e8d2128`
   );
   resp = await resp.json();
   resp = resp.data;
